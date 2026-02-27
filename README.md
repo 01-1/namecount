@@ -3,6 +3,8 @@
 NameCount is a small web app that estimates how many people someone knows based on recognized names.
 It mixes real notable names with fake test names, then computes an estimate and a truthfulness score.
 
+A demo is available at https://namecount.meowc.at!
+
 ## Features
 
 - Random quiz generation from mixed real + fake names
