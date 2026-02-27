@@ -1,0 +1,53 @@
+• Summary of what happened:
+
+  - Built a names pipeline with:
+      - scripts/fetch_sources.py to fetch sources
+      - scripts/build_names.py to normalize/dedupe and output:
+          - data/processed/people_names.csv
+          - data/processed/fictional_character_names.csv
+          - data/processed/disambiguated_names.txt
+  - Switched from tiny fixture data to real Wikidata source config.
+  - Added description to records for disambiguation (e.g., multiple Eumedes entries become distinct).
+  - Added disambiguated_names.txt rules:
+      - unambiguous: Name
+      - ambiguous: Name, description
+  - Investigated low people count:
+      - confirmed under-fetching in people raw file vs fictional.
+      - identified query/pagination/endpoint behavior as root cause.
+  - Added fake-name generation:
+      - implemented scripts/generate_fake_names.py
+      - switched from LLM approach to Faker per your request
+      - kept exact + near-match collision filtering against existing lists
+      - generated data/processed/fake_names.txt with 1000 unique names and 0 exact overlaps.
+  - Installed pytest locally and ran tests:
+      - PYTHONPATH=.vendor python -m pytest -q -> 6 passed.
+  - Added dependency file:
+      - requirements.txt with Faker + pytest.
+
+  What still needs to be done:
+
+  1. Fix “all/most humans” ingestion reliability
+
+  - Move from live WDQS paging to dump-based extraction (or a two-pass robust strategy with deterministic pagination + retry/checkpointing).
+
+  2. Add scalable fake-name architecture for 10M–20M target
+
+  - Current generator works for 1k/small scale.
+  - Need sharding, checkpoint/resume, and memory-efficient near-match indexing.
+
+  3. Wire a clean install/run workflow
+
+  - Optionally add Makefile or scripts for:
+      - install deps
+      - fetch/build real names
+      - generate fake names
+      - run tests.
+
+  4. Tighten test coverage for new generator behavior
+
+  - Add assertions for collision rate thresholds and deterministic outputs across seeds/locales.
+
+  If you want, I can do (1) next: implement dump-based human-name extraction so counts are no longer capped by query endpoint behavior.
+
+To continue this session, run codex resume 019c9ff2-95f1-7fe0-9f50-cdd74835cf7e
+

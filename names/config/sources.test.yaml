@@ -1,0 +1,41 @@
+{
+  "sources": [
+    {
+      "id": "people_fixture",
+      "enabled": true,
+      "entity_type": "person",
+      "language_hint": "mixed",
+      "confidence": 0.9,
+      "input": {
+        "kind": "file",
+        "path": "tests/fixtures/people.csv",
+        "format": "csv"
+      },
+      "fields": {
+        "name": "name",
+        "source_id": "wikidata_id",
+        "description": "description",
+        "aliases": "aliases",
+        "types": "types"
+      }
+    },
+    {
+      "id": "fictional_fixture",
+      "enabled": true,
+      "entity_type": "fictional_character",
+      "language_hint": "mixed",
+      "confidence": 0.85,
+      "input": {
+        "kind": "file",
+        "path": "tests/fixtures/fictional.jsonl",
+        "format": "jsonl"
+      },
+      "fields": {
+        "name": "label",
+        "source_id": "id",
+        "description": "description",
+        "aliases": "aliases"
+      }
+    }
+  ]
+}

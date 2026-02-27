@@ -1,0 +1,25 @@
+{
+  "target_count": 40,
+  "output_path": "data/processed/fake_names_test.txt",
+  "style": "mixed",
+  "max_attempts": 500,
+  "collision": {
+    "exact_block": true,
+    "near_match_block": true,
+    "near_match_threshold": 0.9,
+    "max_len_diff": 3
+  },
+  "sources_for_blocklist": [
+    "tests/fixtures/fake_people.csv",
+    "tests/fixtures/fake_fictional.csv",
+    "tests/fixtures/fake_disambiguated.txt"
+  ],
+  "faker": {
+    "batch_size": 60,
+    "locales": [
+      "en_US",
+      "en_GB",
+      "fr_FR"
+    ]
+  }
+}

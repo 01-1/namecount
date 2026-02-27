@@ -1,0 +1,9 @@
+{
+  "name": "namect",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Estimate how many people someone knows",
+  "scripts": {
+    "start": "node server.js"
+  }
+}

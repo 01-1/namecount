@@ -1,0 +1,46 @@
+{
+  "sources": [
+    {
+      "id": "wikidata_people_en",
+      "enabled": true,
+      "entity_type": "person",
+      "language_hint": "en_romanized",
+      "confidence": 0.95,
+      "input": {
+        "kind": "wikidata_sparql",
+        "format": "csv",
+        "endpoint": "https://query.wikidata.org/sparql",
+        "batch_size": 5000,
+        "max_rows": 20000,
+        "sleep_ms": 250,
+        "query_template": "SELECT ?id ?name ?description WHERE { ?item wdt:P31 wd:Q5 . BIND(REPLACE(STR(?item), \"http://www.wikidata.org/entity/\", \"\") AS ?id) ?item rdfs:label ?name . FILTER(LANG(?name) = \"en\") OPTIONAL { ?item schema:description ?description . FILTER(LANG(?description) = \"en\") } } LIMIT {limit} OFFSET {offset}"
+      },
+      "fields": {
+        "name": "name",
+        "source_id": "id",
+        "description": "description"
+      }
+    },
+    {
+      "id": "wikidata_fictional_characters_en",
+      "enabled": true,
+      "entity_type": "fictional_character",
+      "language_hint": "en_romanized",
+      "confidence": 0.92,
+      "input": {
+        "kind": "wikidata_sparql",
+        "format": "csv",
+        "endpoint": "https://query.wikidata.org/sparql",
+        "batch_size": 5000,
+        "max_rows": 20000,
+        "sleep_ms": 250,
+        "query_template": "SELECT ?id ?name ?description WHERE { ?item wdt:P31/wdt:P279* wd:Q95074 . BIND(REPLACE(STR(?item), \"http://www.wikidata.org/entity/\", \"\") AS ?id) ?item rdfs:label ?name . FILTER(LANG(?name) = \"en\") OPTIONAL { ?item schema:description ?description . FILTER(LANG(?description) = \"en\") } } LIMIT {limit} OFFSET {offset}"
+      },
+      "fields": {
+        "name": "name",
+        "source_id": "id",
+        "description": "description"
+      }
+    }
+  ]
+}

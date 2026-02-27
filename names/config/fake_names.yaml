@@ -1,0 +1,39 @@
+{
+  "target_count": 1000,
+  "output_path": "data/processed/fake_names.txt",
+  "style": "mixed",
+  "max_attempts": 4000,
+  "collision": {
+    "exact_block": true,
+    "near_match_block": true,
+    "near_match_threshold": 0.92,
+    "max_len_diff": 3
+  },
+  "sources_for_blocklist": [
+    "data/processed/people_names.csv",
+    "data/processed/fictional_character_names.csv",
+    "data/processed/disambiguated_names.txt"
+  ],
+  "faker": {
+    "batch_size": 250,
+    "locales": [
+      "en_US",
+      "en_GB",
+      "fr_FR",
+      "es_ES",
+      "de_DE",
+      "it_IT",
+      "pt_BR",
+      "nl_NL",
+      "sv_SE",
+      "pl_PL",
+      "cs_CZ",
+      "ro_RO"
+    ]
+  },
+  "scaling": {
+    "future_target_min": 10000000,
+    "future_target_max": 20000000,
+    "shard_size": 1000000
+  }
+}

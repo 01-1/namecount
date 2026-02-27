@@ -1,0 +1,411 @@
+{
+  "createdAt": "2026-02-27T16:47:01.525Z",
+  "submissions": [
+    {
+      "id": "4adeb6ae-a3ad-494a-a999-125c0d1c0f61",
+      "submittedAt": "2026-02-27T16:47:46.488Z",
+      "selectedNotable": [
+        "Taylor Swift",
+        "Barack Obama",
+        "Oprah Winfrey",
+        "Elon Musk",
+        "Serena Williams",
+        "Lady Gaga"
+      ],
+      "selectedFake": [
+        "Alyssa Vandermere",
+        "Nora Casterline"
+      ],
+      "estimate": 2146,
+      "honestyScore": 67,
+      "userAgent": "Mozilla/5.0 (X11; Linux x86_64; rv:147.0) Gecko/20100101 Firefox/147.0"
+    },
+    {
+      "id": "5b275465-b11d-474c-a028-13f175bf3117",
+      "submittedAt": "2026-02-27T16:47:59.762Z",
+      "selectedNotable": [
+        "Taylor Swift",
+        "Barack Obama",
+        "Oprah Winfrey",
+        "Elon Musk",
+        "Serena Williams"
+      ],
+      "selectedFake": [
+        "Alyssa Vandermere",
+        "Nora Casterline"
+      ],
+      "estimate": 1809,
+      "honestyScore": 67,
+      "userAgent": "Mozilla/5.0 (X11; Linux x86_64; rv:147.0) Gecko/20100101 Firefox/147.0"
+    },
+    {
+      "id": "a53b9a33-00bd-4172-98bb-c2321fa2e75c",
+      "submittedAt": "2026-02-27T16:48:00.096Z",
+      "selectedNotable": [
+        "Taylor Swift",
+        "Barack Obama",
+        "Oprah Winfrey",
+        "Elon Musk",
+        "Serena Williams"
+      ],
+      "selectedFake": [
+        "Alyssa Vandermere",
+        "Nora Casterline"
+      ],
+      "estimate": 1809,
+      "honestyScore": 67,
+      "userAgent": "Mozilla/5.0 (X11; Linux x86_64; rv:147.0) Gecko/20100101 Firefox/147.0"
+    },
+    {
+      "id": "0af920cc-75fb-46a2-b1fc-6c163a498592",
+      "submittedAt": "2026-02-27T16:48:01.504Z",
+      "selectedNotable": [
+        "Taylor Swift",
+        "Barack Obama",
+        "Oprah Winfrey",
+        "Elon Musk"
+      ],
+      "selectedFake": [
+        "Alyssa Vandermere",
+        "Nora Casterline"
+      ],
+      "estimate": 1472,
+      "honestyScore": 67,
+      "userAgent": "Mozilla/5.0 (X11; Linux x86_64; rv:147.0) Gecko/20100101 Firefox/147.0"
+    },
+    {
+      "id": "f9b71df4-25bc-43a0-9d83-da45b3b9d481",
+      "submittedAt": "2026-02-27T16:48:02.961Z",
+      "selectedNotable": [
+        "Taylor Swift",
+        "Barack Obama",
+        "Oprah Winfrey"
+      ],
+      "selectedFake": [
+        "Alyssa Vandermere",
+        "Nora Casterline"
+      ],
+      "estimate": 1135,
+      "honestyScore": 67,
+      "userAgent": "Mozilla/5.0 (X11; Linux x86_64; rv:147.0) Gecko/20100101 Firefox/147.0"
+    },
+    {
+      "id": "3a37104f-e1c3-4d46-8487-b1c4ca588840",
+      "submittedAt": "2026-02-27T16:48:04.912Z",
+      "selectedNotable": [
+        "Taylor Swift",
+        "Oprah Winfrey"
+      ],
+      "selectedFake": [
+        "Alyssa Vandermere",
+        "Nora Casterline"
+      ],
+      "estimate": 799,
+      "honestyScore": 67,
+      "userAgent": "Mozilla/5.0 (X11; Linux x86_64; rv:147.0) Gecko/20100101 Firefox/147.0"
+    },
+    {
+      "id": "dce62dbe-0553-4868-ba1d-e0387b7591e2",
+      "submittedAt": "2026-02-27T16:48:06.647Z",
+      "selectedNotable": [
+        "Taylor Swift"
+      ],
+      "selectedFake": [
+        "Alyssa Vandermere",
+        "Nora Casterline"
+      ],
+      "estimate": 462,
+      "honestyScore": 67,
+      "userAgent": "Mozilla/5.0 (X11; Linux x86_64; rv:147.0) Gecko/20100101 Firefox/147.0"
+    },
+    {
+      "id": "71bc48d5-7516-41da-bc86-92a982490b92",
+      "submittedAt": "2026-02-27T16:48:08.383Z",
+      "selectedNotable": [],
+      "selectedFake": [
+        "Alyssa Vandermere",
+        "Nora Casterline"
+      ],
+      "estimate": 125,
+      "honestyScore": 67,
+      "userAgent": "Mozilla/5.0 (X11; Linux x86_64; rv:147.0) Gecko/20100101 Firefox/147.0"
+    },
+    {
+      "id": "8ab4fd30-59fa-42fd-b8a8-01d3b47bb8fe",
+      "submittedAt": "2026-02-27T16:48:10.798Z",
+      "selectedNotable": [],
+      "selectedFake": [],
+      "estimate": 150,
+      "honestyScore": 100,
+      "userAgent": "Mozilla/5.0 (X11; Linux x86_64; rv:147.0) Gecko/20100101 Firefox/147.0"
+    },
+    {
+      "id": "b73080b8-e30b-4285-a708-5da0792228be",
+      "submittedAt": "2026-02-27T16:48:11.125Z",
+      "selectedNotable": [],
+      "selectedFake": [],
+      "estimate": 150,
+      "honestyScore": 100,
+      "userAgent": "Mozilla/5.0 (X11; Linux x86_64; rv:147.0) Gecko/20100101 Firefox/147.0"
+    },
+    {
+      "id": "bb760f1e-ea12-46fe-a391-63c8d17fe553",
+      "submittedAt": "2026-02-27T16:48:12.846Z",
+      "selectedNotable": [
+        "Lady Gaga"
+      ],
+      "selectedFake": [],
+      "estimate": 554,
+      "honestyScore": 100,
+      "userAgent": "Mozilla/5.0 (X11; Linux x86_64; rv:147.0) Gecko/20100101 Firefox/147.0"
+    },
+    {
+      "id": "2049a1be-5493-4bdc-ae79-8ad50deb31b4",
+      "submittedAt": "2026-02-27T16:48:15.780Z",
+      "selectedNotable": [
+        "Elon Musk",
+        "Serena Williams",
+        "Lady Gaga"
+      ],
+      "selectedFake": [],
+      "estimate": 1363,
+      "honestyScore": 100,
+      "userAgent": "Mozilla/5.0 (X11; Linux x86_64; rv:147.0) Gecko/20100101 Firefox/147.0"
+    },
+    {
+      "id": "702c4a69-dc33-411a-a81c-52a81a3b2831",
+      "submittedAt": "2026-02-27T16:48:17.844Z",
+      "selectedNotable": [
+        "Lady Gaga"
+      ],
+      "selectedFake": [],
+      "estimate": 554,
+      "honestyScore": 100,
+      "userAgent": "Mozilla/5.0 (X11; Linux x86_64; rv:147.0) Gecko/20100101 Firefox/147.0"
+    },
+    {
+      "id": "a3d4860d-0c9e-4205-9533-31a0fdea438b",
+      "submittedAt": "2026-02-27T16:48:19.164Z",
+      "selectedNotable": [
+        "Lady Gaga"
+      ],
+      "selectedFake": [
+        "Alyssa Vandermere"
+      ],
+      "estimate": 508,
+      "honestyScore": 83,
+      "userAgent": "Mozilla/5.0 (X11; Linux x86_64; rv:147.0) Gecko/20100101 Firefox/147.0"
+    },
+    {
+      "id": "ad907146-2b97-4303-a670-ba0e1c60c7e7",
+      "submittedAt": "2026-02-27T16:48:20.837Z",
+      "selectedNotable": [],
+      "selectedFake": [
+        "Alyssa Vandermere"
+      ],
+      "estimate": 138,
+      "honestyScore": 83,
+      "userAgent": "Mozilla/5.0 (X11; Linux x86_64; rv:147.0) Gecko/20100101 Firefox/147.0"
+    },
+    {
+      "id": "06793ccf-19fc-4d51-8f72-a406370032f5",
+      "submittedAt": "2026-02-27T16:48:23.755Z",
+      "selectedNotable": [],
+      "selectedFake": [
+        "Marvin Quillington",
+        "Alyssa Vandermere",
+        "Gordon Pikewell",
+        "Nora Casterline",
+        "Trevor Hainsley",
+        "Paula Evermond"
+      ],
+      "estimate": 75,
+      "honestyScore": 0,
+      "userAgent": "Mozilla/5.0 (X11; Linux x86_64; rv:147.0) Gecko/20100101 Firefox/147.0"
+    },
+    {
+      "id": "d8bf1b5e-274f-4d53-b609-0c0f0bc44ff4",
+      "submittedAt": "2026-02-27T16:52:21.610Z",
+      "sessionId": "ab19374a-f1be-4ab5-94ba-ea51f2745e47",
+      "presentedPeople": [
+        "Serena Williams",
+        "Tom Hanks",
+        "Beyonce",
+        "Paula Evermond",
+        "Alyssa Vandermere",
+        "Oprah Winfrey",
+        "LeBron James",
+        "Gordon Pikewell",
+        "Lady Gaga",
+        "Taylor Swift",
+        "Barack Obama",
+        "Nora Casterline"
+      ],
+      "selectedNotable": [],
+      "selectedFake": [
+        "Paula Evermond"
+      ],
+      "estimate": 131,
+      "honestyScore": 75,
+      "userAgent": "Mozilla/5.0 (X11; Linux x86_64; rv:147.0) Gecko/20100101 Firefox/147.0"
+    },
+    {
+      "id": "bfba0ee7-b537-422b-bafd-57f0b1d2041e",
+      "submittedAt": "2026-02-27T16:52:25.306Z",
+      "sessionId": "ab19374a-f1be-4ab5-94ba-ea51f2745e47",
+      "presentedPeople": [
+        "Serena Williams",
+        "Tom Hanks",
+        "Beyonce",
+        "Paula Evermond",
+        "Alyssa Vandermere",
+        "Oprah Winfrey",
+        "LeBron James",
+        "Gordon Pikewell",
+        "Lady Gaga",
+        "Taylor Swift",
+        "Barack Obama",
+        "Nora Casterline"
+      ],
+      "selectedNotable": [],
+      "selectedFake": [],
+      "estimate": 150,
+      "honestyScore": 100,
+      "userAgent": "Mozilla/5.0 (X11; Linux x86_64; rv:147.0) Gecko/20100101 Firefox/147.0"
+    },
+    {
+      "id": "656938e7-5966-4687-9e26-b0dab7bef2d4",
+      "submittedAt": "2026-02-27T16:52:26.890Z",
+      "sessionId": "ab19374a-f1be-4ab5-94ba-ea51f2745e47",
+      "presentedPeople": [
+        "Serena Williams",
+        "Tom Hanks",
+        "Beyonce",
+        "Paula Evermond",
+        "Alyssa Vandermere",
+        "Oprah Winfrey",
+        "LeBron James",
+        "Gordon Pikewell",
+        "Lady Gaga",
+        "Taylor Swift",
+        "Barack Obama",
+        "Nora Casterline"
+      ],
+      "selectedNotable": [
+        "Serena Williams"
+      ],
+      "selectedFake": [],
+      "estimate": 756,
+      "honestyScore": 100,
+      "userAgent": "Mozilla/5.0 (X11; Linux x86_64; rv:147.0) Gecko/20100101 Firefox/147.0"
+    },
+    {
+      "id": "aeb9b8e1-7719-4c74-b323-479774756e58",
+      "submittedAt": "2026-02-27T18:53:06.143Z",
+      "sessionId": "3b6b981a-3837-4d5f-b9a7-01ca950e3f27",
+      "presentedPeople": [
+        "Momiji Ooka",
+        "Eddie the Mean Old Yeti",
+        "Monikaiel Narożna",
+        "Hunter, main antagonist of the 2016 film Storks",
+        "Nicole Apostel",
+        "Juan Calderon",
+        "Sif, Norse goddess, wife of Thor",
+        "Aegialeus, eponymous king of Aegialea in Greece",
+        "Tiamat, dragon deity from the Dungeons & Dragons franchise",
+        "Justyna Ciechowicz",
+        "Hitech",
+        "Jean Poldo d'Albenas"
+      ],
+      "selectedNotable": [
+        "Sif, Norse goddess, wife of Thor",
+        "Tiamat, dragon deity from the Dungeons & Dragons franchise"
+      ],
+      "selectedFake": [],
+      "estimate": 1363,
+      "honestyScore": 100,
+      "userAgent": "Mozilla/5.0 (X11; Linux x86_64; rv:147.0) Gecko/20100101 Firefox/147.0"
+    },
+    {
+      "id": "f048bc5c-75ca-4d01-8121-c376e4f17140",
+      "submittedAt": "2026-02-27T18:53:16.426Z",
+      "sessionId": "3b6b981a-3837-4d5f-b9a7-01ca950e3f27",
+      "presentedPeople": [
+        "Momiji Ooka",
+        "Eddie the Mean Old Yeti",
+        "Monikaiel Narożna",
+        "Hunter, main antagonist of the 2016 film Storks",
+        "Nicole Apostel",
+        "Juan Calderon",
+        "Sif, Norse goddess, wife of Thor",
+        "Aegialeus, eponymous king of Aegialea in Greece",
+        "Tiamat, dragon deity from the Dungeons & Dragons franchise",
+        "Justyna Ciechowicz",
+        "Hitech",
+        "Jean Poldo d'Albenas"
+      ],
+      "selectedNotable": [
+        "Hunter, main antagonist of the 2016 film Storks",
+        "Sif, Norse goddess, wife of Thor",
+        "Aegialeus, eponymous king of Aegialea in Greece",
+        "Tiamat, dragon deity from the Dungeons & Dragons franchise"
+      ],
+      "selectedFake": [],
+      "estimate": 2575,
+      "honestyScore": 100,
+      "userAgent": "Mozilla/5.0 (X11; Linux x86_64; rv:147.0) Gecko/20100101 Firefox/147.0"
+    },
+    {
+      "id": "90536329-f63b-431f-bf64-b6c3917b4784",
+      "submittedAt": "2026-02-27T18:55:57.207Z",
+      "sessionId": "49a6f02b-7554-4de4-a498-962b239af4e6",
+      "presentedPeople": [
+        "Marieor Axelsson",
+        "Manhugger/Lout #1",
+        "Svea Karlsson",
+        "Kurtis Stryker",
+        "GOLB",
+        "Joan Lorring",
+        "Justyna Ciechowicz",
+        "Alpha Centauri",
+        "MACC",
+        "Aki Tomosaki",
+        "Reimer Heinz B.Eng.",
+        "Manush-lolo"
+      ],
+      "selectedNotable": [
+        "Alpha Centauri"
+      ],
+      "selectedFake": [],
+      "estimate": 756,
+      "honestyScore": 100,
+      "userAgent": "Mozilla/5.0 (X11; Linux x86_64; rv:147.0) Gecko/20100101 Firefox/147.0"
+    },
+    {
+      "id": "19b00cd2-f286-4dee-be0d-b951e6496eaf",
+      "submittedAt": "2026-02-27T18:57:30.416Z",
+      "sessionId": "1c3f7609-bb7c-4209-ab31-8b7c3504f443",
+      "presentedPeople": [
+        "Aguila",
+        "Hajama",
+        "Bianka Kurzyna",
+        "Baudelio Luz Carranza",
+        "Björnius Lachmann",
+        "Cecil John Rhodes",
+        "Metztli",
+        "Redbeard",
+        "Buford Badd",
+        "Guni",
+        "Aillen",
+        "Ayoub de Bruijn"
+      ],
+      "selectedNotable": [
+        "Aguila"
+      ],
+      "selectedFake": [],
+      "estimate": 756,
+      "honestyScore": 100,
+      "userAgent": "Mozilla/5.0 (X11; Linux x86_64; rv:147.0) Gecko/20100101 Firefox/147.0"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>NameCT - Network Estimator</title>
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
+    <main class="container">
+      <h1>NameCT</h1>
+      <p class="intro">
+        Check the people you recognize. We use notable names and hidden fake names to estimate how many people you likely know.
+      </p>
+
+      <form id="estimator-form">
+        <section>
+          <h2>People List (Randomized Mix)</h2>
+          <div id="people-list" class="grid-list"></div>
+          <p class="hint">Some entries may be fake names.</p>
+        </section>
+
+        <button type="submit">Estimate My Network</button>
+      </form>
+
+      <section id="result" class="result hidden" aria-live="polite"></section>
+    </main>
+
+    <script src="/app.js"></script>
+  </body>
+</html>
